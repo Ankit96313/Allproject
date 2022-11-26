@@ -1,0 +1,20 @@
+.one{
+    grid-area: header;
+}
+.two{
+    grid-area: left;
+}
+.three{
+    grid-area: center;
+}
+.four{
+    grid-area: right;
+}
+.five{
+    grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header' 'left center center center right right' 'left footer footer footer footer footer';
+}
